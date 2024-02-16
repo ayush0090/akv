@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/akv-logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+<!-----------contact us----------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.150611416816!2d77.46963207531208!3d28.53519238849476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cebe049a83b83%3A0xc572f53e76de056f!2sAKV%20Electrical%20Engineering%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1708083421962!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>
+                    <h5>Plot No.-196, Udhyog Kendra-2,</h5>
+                    <p>EcoTech-3 Near police Line,
+                        Greater Noida-201308 U.P.</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>+91-9818210184, +91-7011542172</h5>
+                    <p>
+                        Monday to Saturday, 8AM to 5PM
+                    </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                    <h5>info@akvelectrical.com</h5>
+                    <p>
+                        Email us your query
+                    </p>
+                </span>
+            </div>
+            
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="visit-btn red-btn">Send Message</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+
+
+    <!-----------About us content----------->
+
+    
+<!------------------------------course---------------------->
+
+    
+
+<!-------------------------------campus---------------------->
+
+    
+
+    <!---------------Facilities--------------->
+
+    
+
+    <!--------------testimonials-------->
+
+    
+
+    <!---------------Call to action--------------->
+
+    
+
+    <!---------------Footer--------------->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, officia quidem. Quidem maiores rerum, animi <br> voluptas, ipsam impedit eum sint voluptatum ea, reiciendis recusandae?</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Ayush Dev</p>
+    </section>
+
+
+<!--------------JavaScript for toggle menu----------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <script src="https://kit.fontawesome.com/517b3034fc.js" crossorigin="anonymous"></script>
+</body>
+</html>
